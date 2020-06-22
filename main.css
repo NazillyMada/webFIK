@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #2D4059;
+}
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo-header {
+    width: 200px;
+    height: 90px;
+}
+  
+.header-left {
+    float: left;
+    margin-left: 100px;
+}
+  
+.header-right {
+    float: right;
+    margin-right: 100px;
+}
+  
+.header-right a {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: x-small;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+    padding: 80px 50px 0px 125px;
+    margin: 0px 50px 0px 0px;
+}
+.top-container {
+    margin-top: 150px;
+    color: white;
+}
+.icon-gedung {
+    float: right;
+    margin-left: 50px;
+}
+.icon-gedung img {
+    width:600px;
+    height:480px;
+    padding-bottom:80px;
+}
+.top-container h1 h2 p {
+    float: left;
+    margin-left: 100px;
+}
+.top-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.top-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.top-container p {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+}
+
+.btn-wrapper {
+    margin: 80px 0;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.find-more {
+    background-color:#E93435;
+    margin-right: 10px;
+}
