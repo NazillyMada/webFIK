@@ -25,18 +25,19 @@ header {
 }
   
 .logo-header {
-    width: 200px;
-    height: 90px;
+    width: 250px;
+    height: 120px;
 }
   
 .header-left {
     float: left;
-    margin-left: 100px;
+    margin-left: 50px;
 }
   
 .header-right {
     float: right;
-    margin-right: 100px;
+    margin-top: 30px;
+    margin-right: 95px;
 }
   
 .header-right a {
@@ -55,11 +56,12 @@ header {
 }
 
 .top-wrapper {
-    padding: 80px 50px 0px 125px;
-    margin: 0px 50px 0px 0px;
+    padding: 95px 50px 0px 50px;
+   
 }
 .top-container {
     margin-top: 150px;
+    margin-left: 30px;
     color: white;
 }
 .icon-gedung {
@@ -67,9 +69,9 @@ header {
     margin-left: 50px;
 }
 .icon-gedung img {
-    width:600px;
-    height:480px;
-    padding-bottom:80px;
+    width:650px;
+    height:500px;
+    margin-right: 50px;
 }
 .top-container h1 h2 p {
     float: left;
